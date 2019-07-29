@@ -45,7 +45,7 @@ table "songs"
   integer  "artist_id"
   integer  "genre_id"
 ```
-
+rails g resource Account name:string payment_status:string --no-test-framework
 ## Key notes to remember
 
 * You will need to use [strong params](https://github.com/learn-co-curriculum/strong-params-basics)
